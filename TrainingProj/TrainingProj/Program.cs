@@ -12,16 +12,17 @@ namespace TrainingProj
     {
         static void Main(string[] args)
         {
-            ReadUrl("http://www.abv.bg");
+            ReadUrl("http://www.abv.bg", "C:\Users\Viktor\Desktop");
 
-           string ReadUrl(string url)
+            string ReadUrl(string url, string path)
             {
+                path = path.Replace(@"\", @"\\");
                 HttpWebRequest req = (HttpWebRequest)WebRequest.Create(url);
                 HttpWebResponse resp = (HttpWebResponse)req.GetResponse();
                 StreamReader sr = new StreamReader(resp.GetResponseStream());
                 string tmp = sr.ReadToEnd();
                 sr.Close();
-                File.WriteAllText("C:\\Users\\Viktor\\Desktop\\source.txt", tmp);
+                File.WriteAllText(path, tmp);
                 return "File Updated";
             }
         }
