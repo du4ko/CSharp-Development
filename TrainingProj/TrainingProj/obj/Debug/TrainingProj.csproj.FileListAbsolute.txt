@@ -1,0 +1,6 @@
+C:\Users\Viktor\Desktop\C# Apps\TrainingProj\TrainingProj\bin\Debug\TrainingProj.exe.config
+C:\Users\Viktor\Desktop\C# Apps\TrainingProj\TrainingProj\bin\Debug\TrainingProj.exe
+C:\Users\Viktor\Desktop\C# Apps\TrainingProj\TrainingProj\bin\Debug\TrainingProj.pdb
+C:\Users\Viktor\Desktop\C# Apps\TrainingProj\TrainingProj\obj\Debug\TrainingProj.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Desktop\C# Apps\TrainingProj\TrainingProj\obj\Debug\TrainingProj.exe
+C:\Users\Viktor\Desktop\C# Apps\TrainingProj\TrainingProj\obj\Debug\TrainingProj.pdb
